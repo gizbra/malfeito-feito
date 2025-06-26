@@ -1,14 +1,12 @@
 # Malfeito, Feito
 
-Uma simples e funcional *To-Do List* com animações, tema escuro e salvamento local. Feita com HTML, CSS e JavaScript.
+Uma simples e funcional *Lista* tema escuro e salvamento local. Feita com HTML, CSS e JavaScript.
 
 ## ✨ Funcionalidades
 
 - Adicionar tarefas
-- Marcar como concluídas
 - Excluir tarefas
 - Tema claro/escuro com alternância
-- Animação suave na adição dos itens
 - Salvamento das tarefas no navegador com localStorage
 
 ## 🧪 Tecnologias usadas

@@ -34,7 +34,7 @@ input {
 }
 button {
     padding: 10px 15px;
-    background: #5cb85c;
+    background: #b1f8b1;
     color: white;
     border: none;
     border-radius: 4px;
@@ -58,7 +58,7 @@ li.completed {
     opacity: 0.6;
 }
 .delete-btn {
-    background: #d9534f;
+    background: #a20e09;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -79,16 +79,16 @@ li {
     animation: fadeInUp 0.3s easeforwards;  
 }
 body dark {
-    background: #1e1e1e;
+    background: #5f5e5e;
     color: #f0f0f0;
 }
 body dark .container {
-    background: #2c2c2c;
+    background: #050505;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
 body.dark input,
 body.dark button {
-    background: #444;
+    background: #494747;
     color: #fff;
     border-color: #666;    
 }
@@ -96,7 +96,7 @@ body.dark li {
     background: #3a3a3a;
 }
 body.dark .delete-btn {
-    background: #a94442;
+    background: #f99694;
 }
 #toggle-theme {
     margin-bottom: 15px;
@@ -107,3 +107,18 @@ body.dark .delete-btn {
     border-radius: 4px;
     cursor: pointer;    
 }
+/* --- Responsividade para Telas Menores --- */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column; /* Coloca o nome e a nav um sobre o outro */
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Permite que o menu quebre a linha se não couber */
+        justify-content: center;
+    }
+
+    .container {
+        padding: 12px;
+    }   
